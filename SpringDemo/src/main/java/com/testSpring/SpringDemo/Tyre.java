@@ -1,10 +1,12 @@
 package com.testSpring.SpringDemo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
-private Tyre(String brand) {
-		super();
-		this.brand = brand;
-	}
+	/*
+	 * private Tyre(String brand) { super(); this.brand = brand; }
+	 */
 private String brand;
 
 public String getBrand() {
@@ -17,7 +19,7 @@ public void setBrand(String brand) {
 
 @Override
 public String toString() {
-	return "Tyre [brand=" + brand + "]";
+	return "MRF";
 }
 public void init()
 {

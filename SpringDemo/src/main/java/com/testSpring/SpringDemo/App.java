@@ -17,8 +17,10 @@ public class App
 		 * context.getBean("bike"); v.drive(); v1.drive();
 		 */
     	
-    	Tyre tyre=(Tyre)context.getBean("tyre");
-    	System.out.println(tyre);
+    	//Tyre tyre=(Tyre)context.getBean("tyre");
+    	Car car=(Car) context.getBean("car");
+    	
+    	car.drive();
        ((ConfigurableApplicationContext)context).close();
        
        

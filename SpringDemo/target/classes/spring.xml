@@ -13,11 +13,11 @@
 <bean id = "vehicle2" class = "com.testSpring.SpringDemo.Bike" init-method = "init" 
       destroy-method = "destroy"></bean> -->
 <context:component-scan base-package="com.testSpring.SpringDemo"></context:component-scan>
-<bean id = "tyre" class = "com.testSpring.SpringDemo.Tyre" init-method = "init" destroy-method = "destroy">
-      <!-- <property name="brand">
+<!-- <bean id = "tyre" class = "com.testSpring.SpringDemo.Tyre" init-method = "init" destroy-method = "destroy">
+      <property name="brand">
 			<value>MRF</value>
-			</property> -->
+			</property>
 			<constructor-arg value="MRF"></constructor-arg>
-			</bean>
+			</bean> -->
 <!-- <context:component-scan base-package="com.testSpring.SpringDemo"></context:component-scan> -->
 </beans>

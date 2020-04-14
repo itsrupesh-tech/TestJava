@@ -9,7 +9,8 @@ import com.mkyong.util.HibernateUtil;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Maven + Hibernate + Oracle");	
+		System.out.println("Maven + Hibernate + Oracle");
+		System.out.println("hi");	
 		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		

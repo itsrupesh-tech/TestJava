@@ -1,0 +1,24 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [python_column]
+  FROM [TEST].[dbo].[python_table]
+
+
+
+  create table testPDff(
+  id int  not null primary key,
+  name varchar(20),
+  resume varbinary(max) )
+
+
+  select * from  testPDff
+  sp_help testPDff
+
+  ALTER TABLE [testPDf] 
+alter column [resume] varbinary(max)
+
+
+insert into testPDff values(12,'rupesh',0)
+
+select * from testPDff
+
+drop table testPDf

@@ -24,6 +24,7 @@ public class Constant {
 	public static final String API_FORMATTER_1 = "apiformatter1";
 	public static final String API_FORMATTER_2 = "apiformatter2";
 	public static final String KEYVAULT_URL = "keyVaultURL";
+	public static final String KEYVA = "";
 
 
 }

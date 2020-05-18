@@ -4,7 +4,8 @@ import java.util.Date;
 
 import org.hibernate.Session;
 
-import com.mkyong.user.DBUser;
+//import com.mkyong.user.DBUser;
+import com.mkyong.user.DBUser1;
 import com.mkyong.util.HibernateUtil;
 
 public class App {
@@ -16,11 +17,11 @@ public class App {
 		
 
 		session.beginTransaction();
-		DBUser user = new DBUser();
+		DBUser1 user = new DBUser1();
 
-		user.setUserId(100);
+		user.setUserId(985);
 		user.setUsername("superman");
-		user.setCreatedBy("system");
+		user.setCreatedBy("sy4stem");
 		user.setCreatedDate(new Date());
 	
 

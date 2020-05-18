@@ -3,17 +3,17 @@ package com.mkyong.user;
 import java.util.Date;
 
 
-public class DBUser implements java.io.Serializable {
+public class DBUser1 implements java.io.Serializable {
 
 	private int userId;
 	private String username;
 	private String createdBy;
 	private Date createdDate;
 
-	public DBUser() {
+	public DBUser1() {
 	}
 
-	public DBUser(int userId, String username, String createdBy,
+	public DBUser1(int userId, String username, String createdBy,
 			Date createdDate) {
 		this.userId = userId;
 		this.username = username;
